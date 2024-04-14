@@ -1,0 +1,71 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(150deg, gray, black);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+fieldset {
+    border-radius: 5px;
+    box-shadow: 1px 1px 5px 1px black;
+    width: 50vw;
+}
+
+legend {
+    font-size: 20px;
+    background-color: transparent;
+    font-style: italic;
+    font-weight: 700;
+    letter-spacing: 0.08px;
+}
+
+label {
+    font-size: 20px;
+    letter-spacing: 1px;
+    font-weight: 700;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    flex-basis: 200px;
+    flex-wrap: wrap;
+}
+
+h1,
+h2 {
+    font-size: 50px;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 5px;
+    box-shadow: 1px 1px 5px 0.8px black;
+    cursor: pointer;
+}
+
+input {
+    background-color: transparent;
+    letter-spacing: 0.08px;
+}
+
+input,
+button {
+    cursor: pointer;
+    padding: 5px;
+    border: 1px solid black;
+    border-radius: 3px;
+    font-size: 15px;
+    box-shadow: 1px 1px 5px 0.8px black;
+}
